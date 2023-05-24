@@ -41,7 +41,6 @@ function webConnect() {
   });
 }
 
-// как дождаться установления соединения??
 async function request (send) {
   if(websocket == null){
       await webConnect();
